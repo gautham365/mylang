@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  cards: Array.from({ length: amount }, () => 'down'),
+  cards: [],
   activeIndex: -1,
 };
 
@@ -16,8 +16,13 @@ const cardsSlice = createSlice({
       );
       state.activeIndex = index;
     },
+    setCardLength: (state, action) => {
+        const { amount } = action.payload;
+        state.cards = Array.from({ length: amount }, () => 'down');
+        console.log(amount);
+    },
   },
 });
 
-export const { flipCard } = cardsSlice.actions;
+export const { flipCard, setCardLength } = cardsSlice.actions;
 export default cardsSlice.reducer;

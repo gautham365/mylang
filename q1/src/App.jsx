@@ -8,7 +8,7 @@ function App() {
       
       <h1> MyLang Assessment Q1</h1>
       <div className="card">
-        <Cards amount={4} />
+        <Cards amount={3} />
       </div>
     </>
   )
