@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import './App.css'
+import Cards from './components/Cards'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
       
       <h1> MyLang Assessment Q1</h1>
       <div className="card">
-        
+        <Cards amount={4} />
       </div>
     </>
   )
