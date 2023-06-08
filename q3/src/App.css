@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.comments-container {
+  margin: 20px;
+}
+
+.comment-list {
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.comment-list li {
+  background-color: #f4f4f4;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.comment-form input[type='text'] {
+  width: 300px;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1.5rem;
+}
+
+.comment-form button {
+  font-size: 1rem;
+  padding: 10px 10px;
+  margin: 1rem 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
