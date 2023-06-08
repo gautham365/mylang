@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.rating {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+#rating span {
+  color: gray;
+  cursor: pointer;
+}
+
+#rating span.active {
+  color: gold;
+}
